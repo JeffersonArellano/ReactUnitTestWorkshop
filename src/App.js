@@ -1,11 +1,20 @@
 import React from "react";
 
-function App() {
+export const Title = () => {
+  return <h1>Working</h1>;
+};
+
+const App = () => {
   return (
-    <div className="App">
-      <h1>Working</h1>
-    </div>
+    <section id="main">
+      <Title />
+      <div className="container">
+        <span num={3} active={false} />
+        <span num="3" active="false" />
+      </div>
+      <input type="text" />
+    </section>
   );
-}
+};
 
 export default App;
