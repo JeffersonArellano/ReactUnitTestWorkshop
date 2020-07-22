@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing  list component  validate snapshot match 1`] = `
+<section>
+  <h1
+    className="big"
+  >
+    Fruits List
+  </h1>
+  <ul>
+    <li
+      key="1"
+    >
+      Orange
+    </li>
+    <li
+      key="2"
+    >
+      Apple
+    </li>
+    <li
+      key="3"
+    >
+      Strawberry
+    </li>
+    <li
+      key="4"
+    >
+      Mango
+    </li>
+  </ul>
+</section>
+`;
